@@ -1,0 +1,10 @@
+未解锁交易
+Sent message {"Protocol":"6003","Version":"1","ReqParam":{"OrderSide":"0","OrderType":"0","Price":"216000","Qty":"500","StockCode":"00700","Cookie":"1","EnvType":"1"}}
+Received message {"ErrCode":"130","ErrDesc":"购买力不足","Protocol":"6003","RetData":{"Cookie":"1","EnvType":"1","LocalID":"0","SvrResult":"-1"},"Version":"1"}
+Error code: 130 description: 购买力不足
+
+
+Sent message {"Protocol":"6006","Version":"1","ReqParam":{"Password":"","Cookie":"1","EnvType":"0"}}
+Sent message {"Protocol":"6003","Version":"1","ReqParam":{"OrderSide":"0","OrderType":"0","Price":"214200","Qty":"100","StockCode":"00700","Cookie":"2","EnvType":"0"}}
+Received message {"ErrCode":"0","ErrDesc":"","Protocol":"6006","RetData":{"Cookie":"1","SvrResult":"0"},"Version":"1"}
+Received message {"ErrCode":"0","ErrDesc":"","Protocol":"6003","RetData":{"Cookie":"2","EnvType":"0","LocalID":"316368434597184","SvrResult":"0"},"Version":"1"}
